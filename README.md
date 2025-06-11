@@ -1,4 +1,5 @@
-# React 
+# React <img src="https://raw.githubusercontent.com/react-icons/react-icons/master/react-icons.svg" width="32" alt="React Icons">
+ 
 
 # Parcel 
 - Dev Build
