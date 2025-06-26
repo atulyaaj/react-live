@@ -61,10 +61,15 @@
   background-color: rgb(222, 221, 221);
 }
 
-.filter{
+.filter {
   display: flex;
 }
 
-.search{
+.search {
   margin: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }

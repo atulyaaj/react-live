@@ -1,7 +1,7 @@
 # React <img src="https://raw.githubusercontent.com/react-icons/react-icons/master/react-icons.svg" width="32" alt="React Icons">
 
+# Parcel
 
-# Parcel 
 - Dev Build
 - Local Server
 - HMR - Hot Module Replacement
@@ -20,29 +20,30 @@
 - Tree Shaking - remove unused code
 - Different dev and prod bundles
 
-
 # Luncheon App Structure
 
 Header
- - Logo
- - Navigation Items
+
+- Logo
+- Navigation Items
 
 Body
- - Search
- - RestaurantContainer
-   - RestaurantCard
-     - Image
-     - Name of Restaurant
-     - Star Rating
-     - Cuisine Type
-     - Delivery Time
+
+- Search
+- RestaurantContainer
+  - RestaurantCard
+    - Image
+    - Name of Restaurant
+    - Star Rating
+    - Cuisine Type
+    - Delivery Time
 
 Footer
- - Copyright
- - Links
- - Address
- - Contact
 
+- Copyright
+- Links
+- Address
+- Contact
 
 # Two types of Export/Import
 
@@ -56,8 +57,14 @@ import Component from "path";
 export const Component;
 import {Component} from "path";
 
-
 # React Hooks
+
 (Normal JS utility functions)
+
 - useState() - Superpowerful State Variables in React
 - useEffect()
+
+# 2 types Routing in web apps
+
+- Client Side Routing
+- Server Side Routing

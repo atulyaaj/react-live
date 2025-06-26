@@ -1,6 +1,7 @@
 import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router";
 
 const Body = () => {
   // Local State Variable - Super powerful variable
@@ -10,7 +11,7 @@ const Body = () => {
   const [searchText, setSearchText] = useState("");
 
   // Whenever state variables update, react triggers a Reconciliation cycle (re-renders the component)
-  console.log("Body rendered");
+  // console.log("Body rendered");
 
   useEffect(() => {
     fetchData();
@@ -74,7 +75,13 @@ const Body = () => {
       </div>
       <div className="res-container">
         {filteredRestaurants.map((restaurant) => (
-          <RestaurantCard key={restaurant.info.id} resData={restaurant} />
+          <Link
+            className="link"
+            key={restaurant.info.id}
+            to={"/restaurants/" + restaurant.info.id}
+          >
+            <RestaurantCard resData={restaurant} />
+          </Link>
         ))}
       </div>
     </div>
