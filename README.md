@@ -68,3 +68,26 @@ import {Component} from "path";
 
 - Client Side Routing
 - Server Side Routing
+
+# React LifeCycle Method
+
+- ## Mounting
+- Constructor (dummy)
+- Render (dummy)
+  <Html (dummy)>
+- Component Did Mount
+  API Call
+  this.setState -> state variable is updated
+
+- ## Updating
+- Render (API data)
+  <Html (API data)>
+- Component Did Update
+
+# Chunking also known as
+
+- Code Splitting
+- Dynamic Bundling
+- Lazy Loading
+- On-demand Loading
+- Dynamic Import
