@@ -1,7 +1,7 @@
 {
   "name": "react",
   "version": "1.0.0",
-  "description": "This is React by Atulya Jaiswal",
+  "description": "This is React Food App by Atulya Jaiswal",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",

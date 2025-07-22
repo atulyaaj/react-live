@@ -54,6 +54,7 @@ it("Should load Restaurant Menu Component", async () => {
 
   expect(screen.getAllByTestId("foodItems").length).toBe(6);
 
+  // After Clearing Cart
   expect(
     screen.getByText("Cart is Empty. Add items to the cart!!")
   ).toBeInTheDocument();
