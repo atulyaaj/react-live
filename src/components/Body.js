@@ -55,6 +55,7 @@ const Body = () => {
         <div className="search m-4 p-4">
           <input
             type="text"
+            data-testid="searchInput"
             className="border border-solid border-black"
             value={searchText}
             onChange={(e) => {
@@ -83,7 +84,7 @@ const Body = () => {
               const filteredList = listOfRestaurants.filter(
                 (res) => res.info.avgRating > 4.4
               );
-              setListOfRestaurants(filteredList);
+              setFilteredRestaurants(filteredList);
             }}
           >
             Top Rated Restaurants
@@ -92,6 +93,7 @@ const Body = () => {
         <div className="search m-4 p-4 flex items-center">
           <label className="px-2">Username:</label>
           <input
+            data-testid="usernameInput"
             className="border border-black p-2"
             value={loggedInUser}
             onChange={(e) => {
